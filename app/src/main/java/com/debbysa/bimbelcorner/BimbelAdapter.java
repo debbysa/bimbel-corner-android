@@ -21,6 +21,11 @@ public class BimbelAdapter extends RecyclerView.Adapter<BimbelAdapter.BimbelView
         this.context = context;
     }
 
+    public BimbelAdapter(ArrayList<Bimbel> dataList) {
+        this.dataList = dataList;
+    }
+
+
     @NonNull
     @Override
     public BimbelAdapter.BimbelViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {

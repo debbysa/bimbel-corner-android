@@ -23,7 +23,6 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp" />
 
-        <!-- TextView Nama Bimbel -->
         <TextView
             android:id="@+id/txt_nama"
             android:text="Nama"
